@@ -18,12 +18,12 @@ export default function Main() {
     name: "Iphone",
     price: 80000,
     type: "mobile",
-    color: "red"
+    color: "red",
   };
 
   return (
     <div className="App">
-      <div>
+      {/* <div>
         <button onClick={() => dispatch(addToCart(product))}>AddToCart</button>
       </div>
       <div>
@@ -33,7 +33,7 @@ export default function Main() {
       </div>
       <div>
         <button onClick={() => dispatch(emptyCart(product))}>EmptyCart</button>
-      </div>
+      </div> */}
       <div className="product-container">
         {products.map((item) => {
           return (
